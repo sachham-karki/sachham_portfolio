@@ -6,6 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { BsPhoneVibrate } from "react-icons/bs";
+import {MdOutlineEmail} from "react-icons/md";
+import {SlLocationPin} from "react-icons/sl";
 
 const Contact = () => {
   const formRef = useRef();
@@ -74,7 +77,22 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get in touch</p> 
+        <div className="mt-5 mb-5">
+  <ul className="list-none p-0">
+    <li className="flex items-center mb-3">
+      <SlLocationPin className="mr-2" /> Adelaide, SA 5000
+    </li>
+    <li className="flex items-center mb-3">
+      <BsPhoneVibrate className="mr-2" /> 0433 878 512
+    </li>
+    <li className="flex items-center">
+      <MdOutlineEmail className="mr-2" /> sachhamkarki999@gmail.com
+    </li>
+  </ul>
+</div>
+
+
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
