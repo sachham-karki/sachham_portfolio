@@ -1,0 +1,22 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sachhamportfolio-main-195815-authRole",
+            "UnauthRoleArn": "arn:aws:iam::576807233839:role/amplify-sachhamportfolio-main-195815-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::576807233839:role/amplify-sachhamportfolio-main-195815-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-sachhamportfolio-main-195815-deployment",
+            "UnauthRoleName": "amplify-sachhamportfolio-main-195815-unauthRole",
+            "StackName": "amplify-sachhamportfolio-main-195815",
+            "StackId": "arn:aws:cloudformation:us-east-1:576807233839:stack/amplify-sachhamportfolio-main-195815/46e8d3a0-43fb-11ee-b77d-0e7bed2c2cad",
+            "AmplifyAppId": "dncfcka6uy082"
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "type": "cicd",
+            "lastPushTimeStamp": "2023-08-26T10:54:07.903Z"
+        }
+    }
+}
