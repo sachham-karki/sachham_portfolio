@@ -22,6 +22,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
+import csharp from "./tech/csharp.png";
+import php from "./tech/php.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +32,9 @@ import tesla from "./company/tesla.png";
 import vci from "./company/vci.jpg";
 import fap from "./company/fap.jpg";
 import sharon from "./company/sharon.jpg";
+import labex from "./company/labex.jpg";
+import vic from "./company/vic.jpg";
+import njm from "./company/njm.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,4 +75,9 @@ export {
   vci,
   fap,
   sharon,
+  vic,
+  labex,
+  njm,
+  csharp,
+  php,
 };

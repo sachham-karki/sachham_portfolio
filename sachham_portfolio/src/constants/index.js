@@ -27,6 +27,11 @@ import {
     vci,
     fap,
     sharon,
+    labex,
+    vic,
+    njm,
+    csharp,
+    php,
   } from "../assets";
   
   export const navLinks = [
@@ -75,6 +80,9 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
+    },{
+      name: "Wordpress",
+      icon: wordpress,
     },
     {
       name: "TypeScript",
@@ -85,8 +93,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "PHP",
+      icon: php,
     },
     {
       name: "Tailwind CSS",
@@ -110,13 +118,10 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C#",
+      icon: csharp,
     },
-     {
-      name: "Wordpress",
-      icon: wordpress,
-    },
+     
     
   ];
   
@@ -128,50 +133,57 @@ import {
       iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
-        "- Proficient in utilizing WordPress (Elementor and DIVI) to create visually appealing, mobile responsive, and user-friendly websites.",
-        "- Extensive knowledge and expertise in utilizing a wide range of WordPress plugins.",
-        "- Skilled in writing custom code using a variety of languages, including HTML, CSS, Javascript (JQuery), and PHP, to enhance website functionality and design.",
-        "- Well-versed in implementing effective SEO strategies, encompassing On-Page, Off-page, and Technical SEO techniques, to drive organic traffic and improve search engine rankings.",
-        "- Possess valuable 'sales experience', delivering exceptional results through strong service knowledge, effective communication, and relationship-building skills.",
+        "Proficient in utilizing WordPress (Elementor and DIVI) to create visually appealing, mobile responsive, and user-friendly websites.",
+        "Extensive knowledge and expertise in utilizing a wide range of WordPress plugins.",
+        "Skilled in writing custom code using a variety of languages, including HTML, CSS, Javascript (JQuery), and PHP, to enhance website functionality and design.",
+        "Well-versed in implementing effective SEO strategies, encompassing On-Page, Off-page, and Technical SEO techniques, to drive organic traffic and improve search engine rankings.",
+        "Possess valuable 'sales experience', delivering exceptional results through strong service knowledge, effective communication, and relationship-building skills.",
       ],
     },
     {
       title: "Full Stack Developer",
-      company_name: "Victorian Chamber Of Commerce & Industry",
-      icon: vci,
+      company_name: "Labax Nominees(Short Term Contract)",
+      icon: labex,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Aug 2022",
+      date: "Jan 2022 - Oct 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "- Development of front-end", 
+"Design the backend of the application", 
+"SEO(Search Engine Optimization)", 
+"Ensuring Cross Platform compatibility", 
+"Creating Product Manual", 
+"Analyzing & Meet all technical and consumer requirements",
+"Web Hosting"  ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Research Assistant",
+      company_name: "Victoria University",
+      icon: vic,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Apr 2021 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Did research on 'Human Facial Emotions Detecting AI' and successfully developed a mobile application that can be used to detect human emotions on the basis of facial expressions, by using Python(TensorFlow, Keras), Machine Learning algorithms ( Neural Networks and Deep Learning).",
+
+        "Analyzing and gathering Data (Big Data)",
+        "Developing MOdel with Python(TensorFlow, Keras).",
+        "Training Model with Neural Network & Deep Learning Algorithm", 
+        "Testing and Evaluating model using 'Confusion Matrix'",
+        "Designing and Developing Mobile App",
+        "Implementing trained Machine Learning Model into Mobile Application",],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Wordpress Developer(Internship)",
+      company_name: "NJM Group",
+      icon: njm,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Proficiently skilled in harnessing the power of WordPress (specifically Elementor and DIVI) to craft visually captivating websites that seamlessly adapt to mobile devices, ensuring a user-friendly experience.",
+"Boasts an extensive wealth of knowledge and mastery in employing a diverse array of WordPress plugins.",
+"Demonstrates adeptness in composing custom code across various languages, encompassing HTML, CSS, JavaScript (JQuery), and PHP, in order to elevate website functionality and design.",
+
+"Displays a comprehensive understanding of implementing potent SEO strategies, encompassing the gamut of On-Page, Off-Page, and Technical SEO methodologies, with the aim of propelling organic traffic and elevating search engine rankings.",
+"Possesses invaluable acumen in 'sales experience', consistently delivering outstanding outcomes through a combination of profound service expertise, adept communication, and the art of fostering strong relationships.",
       ],
     },
   ];
