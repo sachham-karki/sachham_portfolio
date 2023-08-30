@@ -32,6 +32,9 @@ import {
     njm,
     csharp,
     php,
+    booking,
+    antimatters,
+    firstaidpro,
   } from "../assets";
   
   export const navLinks = [
@@ -156,7 +159,7 @@ import {
 "Web Hosting"  ],
     },
     {
-      title: "Research Assistant",
+      title: "Research Assistant(Short Term Contract)",
       company_name: "Victoria University",
       icon: vic,
       iconBg: "#383E56",
@@ -176,7 +179,7 @@ import {
       company_name: "NJM Group",
       icon: njm,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jun 2020 - Nov 2020",
       points: [
         "Proficiently skilled in harnessing the power of WordPress (specifically Elementor and DIVI) to craft visually captivating websites that seamlessly adapt to mobile devices, ensuring a user-friendly experience.",
 "Boasts an extensive wealth of knowledge and mastery in employing a diverse array of WordPress plugins.",
@@ -217,9 +220,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Firstaidpro(Course Booking & Blogs)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage courses, providing a convenient and efficient solution for organization, students & teachers.",
+      tags: [
+        {
+          name: "Wordpress(Elementor)",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP, JS, Jquery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SEO, GMB, Google Ads",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: firstaidpro,
+      source_code_link: "https://www.firstaidpro.com.au/",
+    },
+    {
+      name: "Antimatters(Service Website)",
+      description:
+        "Web application that enables company to showcase there product, services, stories and communicate with clients.",
       tags: [
         {
           name: "react",
@@ -230,54 +254,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: antimatters,
+      source_code_link: "https://github.com/sachham-karki/modern-front-end",
+    },
+    {
+      name: "Online Orders & Booking Web App",
+      description:
+        "A comprehensive online booking platform that allows users to reserve or order online, and offers curated recommendations.",
+      tags: [
+        {
+          name: "Wix",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP, JS, Jquery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SEO, GMB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: booking,
+      source_code_link: "https://www.thaioncharles.com.au/",
     },
   ];
   

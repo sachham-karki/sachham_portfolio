@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img src={profile_pic} alt='Sachham Karki' className='w-20 h-20 object-contain' />
-          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
+          <img src={logo} alt='logo' className=' w-20 h-20 object-contain ' />
 
           
         </Link>

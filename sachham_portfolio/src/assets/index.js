@@ -39,6 +39,10 @@ import njm from "./company/njm.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import booking from "./booking.jpg";
+import antimatters from "./antimatters.jpg";
+import firstaidpro from "./firstaidpro.jpg";
+
 
 export {
 
@@ -80,4 +84,7 @@ export {
   njm,
   csharp,
   php,
+  firstaidpro,
+  antimatters,
+  booking,
 };
