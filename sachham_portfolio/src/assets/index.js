@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 import booking from "./booking.jpg";
 import antimatters from "./antimatters.jpg";
 import firstaidpro from "./firstaidpro.jpg";
+import vvci from "./vvci.png";
 
 
 export {
@@ -87,4 +88,5 @@ export {
   firstaidpro,
   antimatters,
   booking,
+  vvci
 };

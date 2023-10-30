@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import {vic} from "../assets";
 import { Tilt } from "react-tilt"; // Updated import statement
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -50,12 +51,27 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in C#, Python, PHP, TypeScript and
-        JavaScript, and expertise in frameworks like "Wordpress", "DIVI", WIX, .NET Core, Laravel, React, Node.js, Express, Next.js and
-        Three.js. I'm a quick learner, open to learn new things and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a qualified software developer with experience in HTML, CSS, JavaScript, React, Java, Spring, Spring Boot, C#, .Net, Python, PHP and, frameworks like React, Node.js, Express, .NET Core, Laravel, Spring & Spring Boot also,  database such as MySQL, PostgreSQL and MongoDB. 
+
+        
+        Open to learn new things and collaborate closely with team to create efficient, scalable, and user-friendly solutions that solve real-world problems.
+        
+        I am a problem solver and quick learner. If you show me how to do somthing once, I can quickly pick that up.
       </motion.p>
+      <motion.div variants={textVariant()}>
+      <h2 className={styles.sectionHeadText}>Education</h2>
+      <p className={styles.sectionSubText}><b><img src={vic} alt="vic logo" className="inline-block w-9 h-9 mr-4"  />  Victoria University</b></p>
+      </motion.div>
+      <motion.p  variants={fadeIn("", "", 0.1, 1)}
+        className='ml-10 mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+     >
+     <a href="https://drive.google.com/file/d/1NEhvWsHPnN7pTWY84OEfHPsCn3oU42qM/view?usp=sharing">
+      <u>Bachelor Of Information Technology (2019 - 2022)
+     </u>
+     </a>
+     </motion.p>
+
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

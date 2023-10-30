@@ -35,6 +35,7 @@ import {
     booking,
     antimatters,
     firstaidpro,
+    vvci
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +55,7 @@ import {
   
   const services = [
     {
-      title: "Full-Stack Developer",
+      title: "Full-Stack Developer/Programmer",
       icon: web,
     },
     {
@@ -136,27 +137,16 @@ import {
       iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
-        "Proficient in utilizing WordPress (Elementor and DIVI) to create visually appealing, mobile responsive, and user-friendly websites.",
-        "Extensive knowledge and expertise in utilizing a wide range of WordPress plugins.",
-        "Skilled in writing custom code using a variety of languages, including HTML, CSS, Javascript (JQuery), and PHP, to enhance website functionality and design.",
-        "Well-versed in implementing effective SEO strategies, encompassing On-Page, Off-page, and Technical SEO techniques, to drive organic traffic and improve search engine rankings.",
-        "Possess valuable 'sales experience', delivering exceptional results through strong service knowledge, effective communication, and relationship-building skills.",
-      ],
+       ],
     },
     {
       title: "Full Stack Developer",
-      company_name: "Labax Nominees(Short Term Contract)",
-      icon: labex,
+      company_name: "Victorian Chamber of Commerce & Industry(Short Term Contract)",
+      icon: vvci,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Oct 2022",
+      date: "Jan 2021 - April 2021",
       points: [
-        "- Development of front-end", 
-"Design the backend of the application", 
-"SEO(Search Engine Optimization)", 
-"Ensuring Cross Platform compatibility", 
-"Creating Product Manual", 
-"Analyzing & Meet all technical and consumer requirements",
-"Web Hosting"  ],
+         ],
     },
     {
       title: "Research Assistant(Short Term Contract)",
@@ -165,28 +155,15 @@ import {
       iconBg: "#383E56",
       date: "Apr 2021 - Dec 2021",
       points: [
-        "Did research on 'Human Facial Emotions Detecting AI' and successfully developed a mobile application that can be used to detect human emotions on the basis of facial expressions, by using Python(TensorFlow, Keras), Machine Learning algorithms ( Neural Networks and Deep Learning).",
-
-        "Analyzing and gathering Data (Big Data)",
-        "Developing MOdel with Python(TensorFlow, Keras).",
-        "Training Model with Neural Network & Deep Learning Algorithm", 
-        "Testing and Evaluating model using 'Confusion Matrix'",
-        "Designing and Developing Mobile App",
-        "Implementing trained Machine Learning Model into Mobile Application",],
+      ],
     },
     {
-      title: "Wordpress Developer(Internship)",
+      title: "Wordpress Developer & SEO(Internship)",
       company_name: "NJM Group",
       icon: njm,
       iconBg: "#E6DEDD",
       date: "Jun 2020 - Nov 2020",
       points: [
-        "Proficiently skilled in harnessing the power of WordPress (specifically Elementor and DIVI) to craft visually captivating websites that seamlessly adapt to mobile devices, ensuring a user-friendly experience.",
-"Boasts an extensive wealth of knowledge and mastery in employing a diverse array of WordPress plugins.",
-"Demonstrates adeptness in composing custom code across various languages, encompassing HTML, CSS, JavaScript (JQuery), and PHP, in order to elevate website functionality and design.",
-
-"Displays a comprehensive understanding of implementing potent SEO strategies, encompassing the gamut of On-Page, Off-Page, and Technical SEO methodologies, with the aim of propelling organic traffic and elevating search engine rankings.",
-"Possesses invaluable acumen in 'sales experience', consistently delivering outstanding outcomes through a combination of profound service expertise, adept communication, and the art of fostering strong relationships.",
       ],
     },
   ];
@@ -220,20 +197,20 @@ import {
   
   const projects = [
     {
-      name: "Firstaidpro(Course Booking & Blogs)",
+      name: "Firstaidpro",
       description:
-        "Web-based platform that allows users to search, book, and manage courses, providing a convenient and efficient solution for organization, students & teachers.",
+        "Web-based platform that allows users to search, book, and manage courses, providing a convenient and efficient solution for institute, students & teachers.",
       tags: [
         {
-          name: "Wordpress(Elementor)",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "PHP, JS, Jquery",
+          name: "HTML, CSS, JavaScript, Jquery",
           color: "green-text-gradient",
         },
         {
-          name: "SEO, GMB, Google Ads",
+          name: "PHP, SEO, GMB, GA4",
           color: "pink-text-gradient",
         },
       ],
@@ -241,20 +218,20 @@ import {
       source_code_link: "https://www.firstaidpro.com.au/",
     },
     {
-      name: "Antimatters(Service Website)",
+      name: "Antimatters",
       description:
         "Web application that enables company to showcase there product, services, stories and communicate with clients.",
       tags: [
         {
-          name: "react",
+          name: "React #HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Javascript #Mongodb",
           color: "pink-text-gradient",
         },
       ],
@@ -271,7 +248,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "PHP, JS, Jquery",
+          name: "HTML #CSS #Javascript",
           color: "green-text-gradient",
         },
         {
