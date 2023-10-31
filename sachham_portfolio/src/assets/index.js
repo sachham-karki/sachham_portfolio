@@ -43,6 +43,11 @@ import booking from "./booking.jpg";
 import antimatters from "./antimatters.jpg";
 import firstaidpro from "./firstaidpro.jpg";
 import vvci from "./vvci.png";
+import ausstennis from "./ausstennis.jpg";
+import appointmentbooking from "./appointmentbooking.jpg";
+import marketingexpert from "./marketingexpert.jpg";
+import baristacourse from "./baristacourse.jpg";
+
 
 
 export {
@@ -88,5 +93,9 @@ export {
   firstaidpro,
   antimatters,
   booking,
-  vvci
+  vvci,
+  ausstennis,
+  appointmentbooking,
+  marketingexpert,
+  baristacourse,
 };

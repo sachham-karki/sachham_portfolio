@@ -35,7 +35,11 @@ import {
     booking,
     antimatters,
     firstaidpro,
-    vvci
+    vvci, 
+    ausstennis,
+    appointmentbooking,
+    marketingexpert,
+    baristacourse,
   } from "../assets";
   
   export const navLinks = [
@@ -197,46 +201,65 @@ import {
   
   const projects = [
     {
-      name: "Firstaidpro",
+      name: "Business Web App ( Technology: MongoDB, React, Express, Node.js(RESTful API))",
       description:
-        "Web-based platform that allows users to search, book, and manage courses, providing a convenient and efficient solution for institute, students & teachers.",
+        "Web application that enables company to showcase there product, services, stories, contact and communicate with clients. Developing using MERN stack.",
       tags: [
         {
-          name: "Wordpress",
+          name: "React #Node.js ",
           color: "blue-text-gradient",
         },
         {
-          name: "HTML, CSS, JavaScript, Jquery",
+          name: "CSS #HTML",
           color: "green-text-gradient",
         },
         {
-          name: "PHP, SEO, GMB, GA4",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: firstaidpro,
-      source_code_link: "https://www.firstaidpro.com.au/",
-    },
-    {
-      name: "Antimatters",
-      description:
-        "Web application that enables company to showcase there product, services, stories and communicate with clients.",
-      tags: [
-        {
-          name: "React #HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Javascript #Mongodb",
+          name: "Mongodb",
           color: "pink-text-gradient",
         },
       ],
       image: antimatters,
       source_code_link: "https://github.com/sachham-karki/modern-front-end",
+    },  {
+      name: "Appointment Booking App ( React single Page project )",
+      description:
+        "I designed and developed a responsive single-page React app for appointment booking, offering an intuitive user interface for scheduling appointments.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: " HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: appointmentbooking,
+      source_code_link: "https://github.com/sachham-karki/user-interface-react",
+    }, {
+      name: "AussTennis ( Asp.Net, C# project )",
+      description:
+        "The Ausstennis website is a web application developed using Asp.Net, created for the management of Tournaments, Players, Organizers, Registrations, Venues, and Customers within the context of AussTennis.",
+      tags: [
+        {
+          name: "Asp.Net",
+          color: "blue-text-gradient",
+        },
+        {
+          name: " HTML, CSS, JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL, C#",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ausstennis,
+      source_code_link: "https://github.com/sachham-karki/AussTennis#ausstennis",
     },
     {
       name: "Online Orders & Booking Web App",
@@ -259,6 +282,30 @@ import {
       image: booking,
       source_code_link: "https://www.thaioncharles.com.au/",
     },
+    {
+      name: "Firstaidpro",
+      description:
+        "Web-based platform that allows users to search, book, and manage courses, providing a convenient and efficient solution for institute, students & teachers.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML, CSS, JavaScript, Jquery",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP, SEO, GMB, GA4",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: firstaidpro,
+      source_code_link: "https://www.firstaidpro.com.au/",
+    },
+    
+   
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };
