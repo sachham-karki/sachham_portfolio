@@ -51,7 +51,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a qualified software developer with experience in HTML, CSS, JavaScript, React, Java, Spring, Spring Boot, C#, .Net, Python, PHP and, frameworks like React, Node.js, Express, .NET Core, Laravel, Spring & Spring Boot also,  database such as MySQL, PostgreSQL and MongoDB. 
+        I'm a qualified Software Developer with experience in HTML, CSS, JavaScript, React, Java, Spring, Spring Boot, C#, .Net, Python, PHP and, frameworks like React, Node.js, Express, .NET Core, Laravel, Spring & Spring Boot also,  database such as MySQL, PostgreSQL and MongoDB. 
 
         
         Open to learn new things and collaborate closely with team to create efficient, scalable, and user-friendly solutions that solve real-world problems.
